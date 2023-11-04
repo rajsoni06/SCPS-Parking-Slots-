@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .parking-lot {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .car-slot {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-color: #FFB6C1; /* light red color */
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .car-slot:nth-child(n+24) {
+            background-color: #90EE90; /* light green color */
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+
+
+
+        <head>
+    <style>
+        .parking-lot {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .car-slot {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-color: #FFB6C1; /* light red color */
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .car-slot:nth-child(n+24) {
+            background-color: #90EE90; /* light green color */
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var slots = document.querySelectorAll('.car-slot:nth-child(n+24)');
+            slots.forEach(function (slot) {
+                slot.addEventListener('click', function () {
+                    var redirectUrl = " "; // Add your desired URL here
+                    window.location.href = redirectUrl;
+                });
+            });
+        });
+    </script>
+    </style>
+</head>
+
+<body>
+    <h1><u> SCPS &nbsp Car &nbsp Slots </u></h1>
+    <div class="parking-lot">
+        <div class="car-slot">&nbsp &nbsp &nbsp &nbsp Slot 1 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 2 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 3 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 4 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 5 &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 6 &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 7 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 8 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 9 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 10 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 11 &nbsp &nbsp &nbsp &nbsp &nbsp  (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 12 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 13 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 14 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 15 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 16 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 17 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 18 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 19 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 20 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 21 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 22 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 23 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 24 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 25 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 26 &nbsp &nbsp  &nbsp &nbsp (Unbooked)</div>
+
+
+
+
+
+    <h1><u> SCPS &nbsp Car &nbsp Slots </u></h1>
+    <div class="parking-lot">
+        <!-- slots 1-23 -->
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 1 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <!-- remaining slots here -->
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 23 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 24 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 25 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 26 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+    </div>
+
+     </body>
+
+</html>
