@@ -23,7 +23,7 @@
             font-weight: bold;
         }
 
-        .car-slot:nth-child(n+24) {
+        .car-slot:nth-child(n+25) {
             background-color: #90EE90; /* light green color */
         }
 
@@ -57,7 +57,7 @@
             font-weight: bold;
         }
 
-        .car-slot:nth-child(n+24) {
+        .car-slot:nth-child(n+25) {
             background-color: #90EE90; /* light green color */
             cursor: pointer;
         }
@@ -69,7 +69,7 @@
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            var slots = document.querySelectorAll('.car-slot:nth-child(n+24)');
+            var slots = document.querySelectorAll('.car-slot:nth-child(n+25)');
             slots.forEach(function (slot) {
                 slot.addEventListener('click', function () {
                     var redirectUrl = " "; // Add your desired URL here
@@ -107,24 +107,10 @@
         <div class="car-slot">&nbsp &nbsp &nbsp Slot 21 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
         <div class="car-slot">&nbsp &nbsp &nbsp Slot 22 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
         <div class="car-slot">&nbsp &nbsp &nbsp Slot 23 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 24 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
+        <div class="car-slot">&nbsp &nbsp &nbsp Slot 24 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
         <div class="car-slot">&nbsp &nbsp &nbsp Slot 25 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
         <div class="car-slot">&nbsp &nbsp &nbsp Slot 26 &nbsp &nbsp  &nbsp &nbsp (Unbooked)</div>
 
-
-
-
-
-    <h1><u> SCPS &nbsp Car &nbsp Slots </u></h1>
-    <div class="parking-lot">
-        <!-- slots 1-23 -->
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 1 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
-        <!-- remaining slots here -->
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 23 &nbsp &nbsp &nbsp &nbsp &nbsp (Booked)</div>
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 24 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 25 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
-        <div class="car-slot">&nbsp &nbsp &nbsp Slot 26 &nbsp &nbsp &nbsp &nbsp (Unbooked)</div>
-    </div>
 
      </body>
 
